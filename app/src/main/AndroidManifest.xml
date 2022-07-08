@@ -13,21 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kettle_app_test"
         tools:targetApi="31">
+
         <activity
-            android:name=".SignUpActivity"
-            android:exported="false" />
+            android:name=".activities.SignUpActivity"
+            android:windowSoftInputMode="adjustResize"/>
+
         <activity
-            android:name=".SignInActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".activities.SignInActivity"
+            android:windowSoftInputMode="adjustResize"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
-
 </manifest>

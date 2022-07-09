@@ -27,6 +27,29 @@
             android:textSize="@dimen/_18ssp" />
 
 
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:background="@drawable/background_image"
+                android:scaleType="centerCrop"
+                app:riv_oval="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_image"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/primary"/>
+
+
+        </FrameLayout>
+
     </LinearLayout>
 
 </ScrollView>

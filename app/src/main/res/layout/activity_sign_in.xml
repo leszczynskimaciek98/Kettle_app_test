@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:clipToPadding="false"
     android:padding="@dimen/_24sdp"
     android:overScrollMode="never"
@@ -32,6 +33,45 @@
             android:textColor="@color/primary_text"
             android:textSize="@dimen/_18ssp"
             android:textStyle="bold" />
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@drawable/background_input"
+            android:hint="@string/enter_your_email"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no"
+            android:imeOptions="actionNext"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13ssp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/background_input"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword"
+            android:importantForAutofill="no"
+            android:imeOptions="actionDone"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13ssp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/sign_in"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13ssp"
+            app:cornerRadius="@dimen/_20sdp"/>
+
 
     </LinearLayout>
     

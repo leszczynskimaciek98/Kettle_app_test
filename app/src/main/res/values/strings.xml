@@ -8,4 +8,6 @@
     <string name="create_new_account">Create New Account</string>
     <string name="add_image">Add Image</string>
     <string name="enter_your_name">Enter your name</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_password">Confirm password</string>
 </resources>

@@ -52,7 +52,21 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"
-            android:layout_marginTop="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/background_input"
+            android:hint="@string/enter_your_name"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            android:imeOptions="actionNext"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13ssp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:background="@drawable/background_input"
             android:hint="@string/enter_your_email"
             android:inputType="textEmailAddress"
@@ -62,6 +76,7 @@
             android:paddingEnd="@dimen/_16sdp"
             android:textColor="@color/primary"
             android:textSize="@dimen/_13ssp" />
+
     </LinearLayout>
 
 </ScrollView>

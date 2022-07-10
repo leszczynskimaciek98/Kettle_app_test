@@ -63,6 +63,7 @@
             android:textSize="@dimen/_13ssp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSignIn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
             android:layout_marginTop="@dimen/_20sdp"
@@ -72,6 +73,7 @@
             android:textSize="@dimen/_13ssp"
             app:cornerRadius="@dimen/_20sdp"/>
         <TextView
+            android:id="@+id/textCreateNewAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_25sdp"

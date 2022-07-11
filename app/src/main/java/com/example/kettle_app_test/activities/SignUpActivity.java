@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Patterns;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.kettle_app_test.R;
@@ -60,6 +61,15 @@ public class SignUpActivity extends AppCompatActivity {
             return false;
         }else{
             return true;
+        }
+    }
+    private void loading(Boolean isLoading){
+        if(isLoading){
+            binding.buttonSignUp.setVisibility(View.INVISIBLE);
+            binding.progressBar.setVisibility(View.VISIBLE);
+        }else{
+            binding.progressBar.setVisibility(View.INVISIBLE);
+            binding.buttonSignUp.setVisibility(View.VISIBLE);
         }
     }
 }

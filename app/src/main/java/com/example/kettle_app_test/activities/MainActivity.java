@@ -1,7 +1,6 @@
 package com.example.kettle_app_test.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 import com.example.kettle_app_test.R;
